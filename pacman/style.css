@@ -1,0 +1,129 @@
+/* Importar a fonte pixealda */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+  margin: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #ffeb3b;
+}
+canvas {
+  background-color: black;
+  margin-top: 10px;
+  image-rendering: pixelated;
+  border: 3px solid #342DCA;
+}
+#scoreboard {
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+button {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  color: #000012;
+  background: #ffeb3b;
+  border: none;
+  padding: 15px 25px;
+  margin: 15px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 15px #ffeb3b;
+  transition: background-color 0.25s ease, color 0.25s ease, box-shadow 0.3s ease;
+  }
+
+  button:hover {
+  background: #fff176;
+  box-shadow: 0 0 25px #fff176;
+  }
+
+  .container {
+  text-align: center;
+  max-width: 480px;
+  border: 4px solid #ffeb3b;
+  padding: 30px;
+  border-radius: 15px;
+  background: radial-gradient(circle at center, #000000 0%, #000011 80%);
+  box-shadow: 0 0 20px #ffeb3b;
+  }
+
+  h1 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  text-shadow: 0 0 10px #ffeb3b;
+  }
+
+  #content {
+  margin-top: 25px;
+  background: #111133;
+  border: 2px solid #ffeb3b;
+  padding: 20px;
+  border-radius: 12px;
+  min-height: 160px;
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+  text-align: left;
+  color: #fffde7;
+  box-shadow: 0 0 12px #ffeb3b inset;
+  }
+
+  .hidden {
+  display: none;
+  }
+
+  .pixel-image {
+  display: block;
+  margin: 0 auto 15px auto;
+  width: 80px;
+  image-rendering: pixelated;
+  }
+
+  #GameOver {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 999;
+  font-family: 'Press Start 2P', cursive;
+  color: #ffeb3b;
+  text-align: center;
+}
+
+.GameOverContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#Passou {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.8); 
+  color: yellow; 
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+  text-align: center;
+  z-index: 1000;
+}
+
+.PassouContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}

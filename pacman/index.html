@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="home.css" rel="stylesheet">
+<title> Home </title>
+
+</head>
+
+<body>
+
+  <div class="container" role="main" aria-label="Página inicial do jogo Pacman">
+    <img src="imagens/paczin.png" alt="Pacman pixel art" class="pixel-image" />
+    <h1>Pacman</h1>
+    <button id="btnPlay" aria-controls="content" aria-expanded="false" aria-label="Iniciar o jogo">Jogar</button>
+    <button id="btnRules" aria-controls="content" aria-expanded="false" aria-label="Mostrar regras do jogo">Regras</button>
+    <button id="btnCreator" aria-controls="content" aria-expanded="false" aria-label="Mostrar criador">Criador</button>
+    <div id="content" aria-live="polite" class="hidden"></div>
+  </div>
+
+  <script src="home.js"></script>
+</body>
+</html>
+
