@@ -27,13 +27,11 @@ The goal of this project was to rebuild the classic Pac-Man game while implement
 
 🕹️ How to Play:
 
-1. Clone this repository;
+1. Visist the repository website: https://mateusmonteiro11.github.io/pacman-game/
 
-2. Open the index.html file in your browser;
+2. Use the arrow keys or wasd to move Pac-Man around the maze;
 
-3. Use the arrow keys or wasd to move Pac-Man around the maze;
-
-4. Avoid the ghosts and eat all the pellets to win the game.
+3. Avoid the ghosts and eat all the pellets to win the game.
 
 📂 Project Structure:
 
